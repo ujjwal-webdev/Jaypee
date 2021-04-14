@@ -849,8 +849,15 @@ background-color: #f1f1f1
 }
 .view-more{
     text-decoration: none;
-    color: black;
+    color: #219ebc;
     font-size: 14px;
+}
+.view-more:hover{
+    background-color: #83c5be;
+    border-radius: 5px;
+    padding-left:5px ;
+    padding-right: 5px;
+    transition: all 0.4s ;
 }
 .cards-subcard-3{
     /* border: 2px solid black; */
@@ -859,6 +866,7 @@ background-color: #f1f1f1
 }
 .cards-subheader-3{
     /* border: 2px solid black; */
+    /* margin-top: 10px; */
     position: sticky;
     top: 0;
     background-color: #83c5be;
