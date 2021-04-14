@@ -852,9 +852,6 @@ background-color: #f1f1f1
     color: black;
     font-size: 14px;
 }
-.view-more:hover{
-
-}
 .cards-subcard-3{
     /* border: 2px solid black; */
     height: 150px;
@@ -910,40 +907,96 @@ background-color: #f1f1f1
     transition: all 0.4s ;
 }
 .toggle{
-    width:75% ;
+    width:90% ;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid black;
-    background-color: #fff6cc;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: #adb5bd;
 }
 .toggle-header{
     /* border: 2px solid black; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 30px;
     font-weight: bold;
-    background: #ffe97f;
+    background: #495057;
+    color: #adb5bd;
+    padding-left: 20px;
 }
 .tab-content ul{
     list-style-image: url(caret-right-fill.svg);
+    margin-top: -0.5rem;
+    /* padding-bottom: 0.5rem; */
 }
 .tab-content ul li{
     padding: 10px;
+    padding-left: 0px;
+}
+#pills-tab{
+    border-bottom: 1px solid #6c757d ;
 }
 #pills-home-tab{
     font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border-right: 2px solid #343a40; */
     /* background-color: #ffd400; */
 }
-.nav-pills li button.active{
-    background: yellow;
+#pills-home-tab.active{
+    background-color: #6c757d;
+    border-radius: unset;
+    border-right: 2px solid #343a40;
 }
 #pills-profile-tab{
     font-size: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-    /* color: white; */
-    /* background-color: #ffd400; */
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background: yellow; */
+}
+#pills-profile-tab.active{
+    background: #6c757d;
+    border-radius: unset;
+    border-right: 2px solid #343a40;
+}
+#pills-contact-tab{
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#pills-contact-tab.active{
+    background: #6c757d;
+    border-radius: unset;
+    border-right: 2px solid #343a40;
+}
+.faculty{
+    display: flex;
+}
+.faculty-content{
+    /* border: 2px solid black; */
+    text-align: justify;
+    width: 70%;
+}
+.faculty-image{
+    /* border: 2px solid black; */
+    /* display: flex;
+    align-content: center; */
+    position: relative;
+    top: 20px;
+    /* background: black; */
+}
+.faculty-image img{
+    width: 400px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 10px;
 }
