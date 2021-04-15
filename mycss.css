@@ -1008,3 +1008,48 @@ background-color: #f1f1f1
     border-right: 2px solid black;
     border-radius: 10px;
 }
+.student{
+    display: flex;
+}
+.student-content{
+    /* border: 2px solid black; */
+    text-align: justify;
+    width: 70%;
+}
+.student-image{
+    /* border: 2px solid black; */
+    /* display: flex;
+    align-content: center; */
+    position: relative;
+    top: 20px;
+    /* background: black; */
+}
+.student-image img{
+    width: 400px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 10px;
+}
+.university{
+    display: flex;
+}
+.university-content{
+    /* border: 2px solid black; */
+    text-align: justify;
+    width: 70%;
+}
+.university-image{
+    /* border: 2px solid black; */
+    /* display: flex;
+    align-content: center; */
+    position: relative;
+    top: 20px;
+    right: 80px;
+    /* background: black; */
+}
+.university-image img{
+    width: 400px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-radius: 10px;
+}
